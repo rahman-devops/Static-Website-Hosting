@@ -148,9 +148,4 @@ resource "aws_cloudfront_distribution" "website_distribution" {
   viewer_certificate {
     cloudfront_default_certificate = true
   }
-
-  viewer_resume_file {
-    cloudfront_default_certificate = false
-  }
-
 }
